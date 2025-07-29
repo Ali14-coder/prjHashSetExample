@@ -28,6 +28,13 @@
             //Check if a specific superhero is in the set
             bool containsHero = superheroes.Contains("The Flash");
             Console.WriteLine($"\nIs the Flash in the set? { containsHero}");
+
+            //Clear all superheroes from the set
+            superheroes.Clear();
+            Console.WriteLine("\nAll superheroes have been removed.");
+
+            //Check the count of superheroes in the set
+            Console.WriteLine($"\nNumber of superheroes in the set: {superheroes.Count}");
         }
     }
 }
